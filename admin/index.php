@@ -2,6 +2,8 @@
 <?php
 session_start();
 include("../db.php");
+require_once("../model/user.php");
+require_once("../model/category.php");
 include "sidenav.php";
 ?>
       <!-- End Navbar -->
@@ -29,7 +31,14 @@ include "sidenav.php";
                     </tr></thead>
                     <tbody>
                       <?php 
-                        
+                        $listUser = GetListUser();
+                        for($i = 0;$i < count($listUser); $i++)
+                        {
+                          $user = $listUser[$i];
+                          echo "<tr><td>$user->userId</td><td>$user->firstName</td><td>$user->lastName</td><td>$user->email</td><td>$user->password</td><td>$user->phone</td><td>$user->address1</td><td>$user->address2</td>
+
+                        </tr>";
+                        }
                         ?>
                     </tbody>
                   </table>
@@ -51,7 +60,12 @@ include "sidenav.php";
                     </tr></thead>
                     <tbody>
                       <?php 
-                        
+                        $result = GetListCategory();
+                        for($i = 0 ; $i <count($result); $i++)
+                        { 
+                            $cat = $result[$i];
+                            echo "<tr><td>$cat->categoryID</td><td>$cat->categoryName</td><td>$cat->categoryCount</td></tr>";
+                        }
                         ?>
                     </tbody>
                   </table>
@@ -72,7 +86,12 @@ include "sidenav.php";
                     </tr></thead>
                     <tbody>
                       <?php 
-                        
+                        $result = GetListBrand();
+                        for($i = 0 ; $i <count($result); $i++)
+                        { 
+                            $brand = $result[$i];
+                            echo "<tr><td>$brand->brandID</td><td>$brand->brandName</td><td>$brand->brandCount</td></tr>";
+                        }
                         ?>
                     </tbody>
                   </table>
@@ -94,7 +113,12 @@ include "sidenav.php";
                     </tr></thead>
                     <tbody>
                       <?php 
-                        
+                        $result = GetListSubscriber();
+                        for($i = 0 ; $i <count($result); $i++)
+                        { 
+                            $sUser = $result[$i];
+                            echo "<tr><td>$sUser->userId</td><td>$sUser->email</td></tr>";
+                        }
                         ?>
                     </tbody>
                   </table>
