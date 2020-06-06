@@ -11,7 +11,7 @@ if(isset($_POST["category"])){
 		
             
             <div class='aside'>
-							<h3 class='aside-title'>Categories</h3>
+							<h3 class='aside-title'>LOẠI</h3>
 							<div class='btn-group-vertical'>
 	";
 	if(mysqli_num_rows($run_query) > 0){
@@ -51,7 +51,7 @@ if(isset($_POST["brand"])){
 	$run_query = mysqli_query($con,$brand_query);
 	echo "
 		<div class='aside'>
-							<h3 class='aside-title'>Brand</h3>
+							<h3 class='aside-title'>Thương Hiệu</h3>
 							<div class='btn-group-vertical'>
 	";
 	if(mysqli_num_rows($run_query) > 0){
@@ -123,7 +123,7 @@ if(isset($_POST["getProduct"])){
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											<span class='new'>Mới</span>
 										</div>
 									</div></a>
 									<div class='product-body'>
@@ -144,7 +144,7 @@ if(isset($_POST["getProduct"])){
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Thêm vào giỏ</button>
 									</div>
 								</div>
 							</div>
@@ -189,7 +189,7 @@ if(isset($_POST["get_seleted_Category"]) || isset($_POST["selectBrand"]) || isse
 										<img  src='product_images/$pro_image'  style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											<span class='new'>Mới</span>
 										</div>
 									</div></a>
 									<div class='product-body'>
@@ -210,7 +210,7 @@ if(isset($_POST["get_seleted_Category"]) || isset($_POST["selectBrand"]) || isse
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' href='#' tabindex='0' class='add-to-cart-btn'><i class='fa fa-shopping-cart'></i> add to cart</button>
+										<button pid='$pro_id' id='product' href='#' tabindex='0' class='add-to-cart-btn'><i class='fa fa-shopping-cart'></i>Thêm vào giỏ</button>
 									</div>
 								</div>
 							</div>
