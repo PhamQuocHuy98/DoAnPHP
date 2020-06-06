@@ -51,7 +51,7 @@ include 'header.php';
 
                     <!-- aside Widget -->
                     <div class="aside">
-                        <h3 class="aside-title">Price</h3>
+                        <h3 class="aside-title">Giá</h3>
                         <div class="price-filter">
                             <div id="price-slider" class="noUi-target noUi-ltr noUi-horizontal">
                                 <div class="noUi-base">
