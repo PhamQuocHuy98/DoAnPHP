@@ -5,12 +5,13 @@ include("../db.php");
 require_once("../model/user.php");
 require_once("../model/category.php");
 include "sidenav.php";
+include "topheader.php";
 ?>
       <!-- End Navbar -->
       <div class="content">
         <div class="container-fluid">
          <div class="panel-body">
-		<a>
+	  	      <a>
             <?php  //success message
             if(isset($_POST['success'])) {
             $success = $_POST["success"];
@@ -82,7 +83,7 @@ include "sidenav.php";
                 <div class="table-responsive ps">
                   <table class="table table-hover tablesorter " id="">
                     <thead class=" text-primary">
-                        <tr><th>ID</th><th>Tên nhãn hiệu</th><th>số lượng</th>
+                        <tr><th>ID</th><th>Tên nhãn hiệu</th><th>Số lượng</th>
                     </tr></thead>
                     <tbody>
                       <?php 
@@ -132,4 +133,5 @@ include "sidenav.php";
         </div>
       </div>
       <?php
+      include "footer.php";
 ?>
