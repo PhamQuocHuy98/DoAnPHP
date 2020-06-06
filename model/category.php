@@ -17,10 +17,10 @@ class Category
 
     }
     // Danh sách sản phẩm
-    public  function getListCategory()
+    public  static function getListCategory()
     {
         $db = new DB();
-        $sql = "SELECT * FROM DanhMuc";
+        $sql = "SELECT * FROM categories";
         $rs = $db->select_to_array($sql);
         return $rs;
     }

@@ -4,45 +4,34 @@ $ip_add = getenv("REMOTE_ADDR");
 include "db.php";
 
 if (isset($_POST["categoryhome"])) {
+
+
     $category_query = "SELECT * FROM categories ";
 
     $run_query = mysqli_query($con, $category_query) or die(mysqli_error($con));
     echo "
-		
-            
-            
 				<!-- responsive-nav -->
 				<div id='responsive-nav'>
 					<!-- NAV -->
 					<ul class='main-nav nav navbar-nav'>
-                    <li class='active'><a href='index.php'>Trang chủ</a></li>
+                    <li ><a href='index.php'>Trang chủ</a></li>
                    
 	";
-    if (mysqli_num_rows($run_query) > 0) {
-        while ($row = mysqli_fetch_array($run_query)) {
-            $cid = $row["cat_id"];
-            $cat_name = $row["cat_title"];
 
-            $sql = "SELECT COUNT(*) AS count_items FROM products,categories WHERE product_cat=cat_id";
-            $query = mysqli_query($con, $sql);
-            $row = mysqli_fetch_array($query);
-            $count = $row["count_items"];
+    //echo ($run_query);
+    //$rows = Category::getListCategory();
+    while ($row = mysqli_fetch_array($run_query)) {
+        $cid = $row["cat_id"];
+        $cat_name = $row["cat_title"];
 
+        $sql = "SELECT COUNT(*) AS count_items FROM products,categories WHERE product_cat=cat_id";
+        $query = mysqli_query($con, $sql);
+        $row = mysqli_fetch_array($query);
+        $count = $row["count_items"];
 
-
-            echo "
-					
+        echo "
+            <li class =''><a href='store.php'>$cat_name</a></li>
                     
-                               <li class='categoryhome' cid='$cid'><a href='store.php'>$cat_name</a></li>
-                    
-			";
-        }
-
-        echo "</ul>
-					<!-- /NAV -->
-				</div>
-				<!-- /responsive-nav -->
-               
 			";
     }
 }
