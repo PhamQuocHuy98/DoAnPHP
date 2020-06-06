@@ -46,11 +46,11 @@ session_start();
 		<![endif]-->
 	<style>
 		#navigation {
-			background: #FF4E50;
+			background: #FFFFFF;
 			/* fallback for old browsers */
 			background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);
 			/* Chrome 10-25, Safari 5.1-6 */
-			background: linear-gradient(to right, #F9D423, #FF4E50);
+			background: linear-gradient(to right, ##FFFFFF, ##FFFFFF);
 			/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
@@ -62,7 +62,7 @@ session_start();
 			/* fallback for old browsers */
 			background: -webkit-linear-gradient(to right, #061161, #780206);
 			/* Chrome 10-25, Safari 5.1-6 */
-			background: linear-gradient(to right, #061161, #780206);
+			background: linear-gradient(to right, #00b4db, #00b4db);
 			/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
@@ -75,7 +75,7 @@ session_start();
 			/* fallback for old browsers */
 			background: -webkit-linear-gradient(to right, #190A05, #870000);
 			/* Chrome 10-25, Safari 5.1-6 */
-			background: linear-gradient(to right, #190A05, #870000);
+			background: linear-gradient(to right, #60afdd, #60afdd);
 			/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
@@ -86,11 +86,11 @@ session_start();
 			/* fallback for old browsers */
 			background: -webkit-linear-gradient(to right, #348AC7, #7474BF);
 			/* Chrome 10-25, Safari 5.1-6 */
-			background: linear-gradient(to right, #348AC7, #7474BF);
+			background: linear-gradient(to right, #00b4db, #00b4db);
 			/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
-			color: #1E1F29;
+			color: #FFF	;
 		}
 
 		#bottom-footer {
@@ -105,7 +105,7 @@ session_start();
 		}
 
 		.footer-links li a {
-			color: #1E1F29;
+			color: #FFF;
 		}
 
 		.mainn-raised {
@@ -156,18 +156,18 @@ session_start();
                                <div class="dropdownn">
                                   <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> HI ' . $row["first_name"] . '</a>
                                   <div class="dropdownn-content">
-                                    <a href="" data-toggle="modal" data-target="#profile"><i class="fa fa-user-circle" aria-hidden="true" ></i>My Profile</a>
-                                    <a href="logout.php"  ><i class="fa fa-sign-in" aria-hidden="true"></i>Log out</a>
+                                    <a href="" data-toggle="modal" data-target="#profile"><i class="fa fa-user-circle" aria-hidden="true" ></i>Thông tin cá nhân</a>
+                                    <a href="logout.php"  ><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng xuất</a>
                                     
                                   </div>
                                 </div>';
 						} else {
 							echo '
                                 <div class="dropdownn">
-                                  <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> My Account</a>
+                                  <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i>Tài khoản của tôi</a>
                                   <div class="dropdownn-content">
-                                    <a href="" data-toggle="modal" data-target="#Modal_login"><i class="fa fa-sign-in" aria-hidden="true" ></i>Login</a>
-                                    <a href="" data-toggle="modal" data-target="#Modal_register"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a>
+                                    <a href="" data-toggle="modal" data-target="#Modal_login"><i class="fa fa-sign-in" aria-hidden="true" ></i>Đăng nhập</a>
+                                    <a href="" data-toggle="modal" data-target="#Modal_register"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng ký</a>
                                     
                                   </div>
                                 </div>';
@@ -220,25 +220,25 @@ session_start();
 
 							<!-- Cart -->
 							<div class="dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-									<i class="fa fa-shopping-cart"></i>
-									<span>Giỏ hàng</span>
-									<div class="badge qty">0</div>
-								</a>
-								<div class="cart-dropdown">
-									<div class="cart-list" id="cart_product">
-
-
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Giỏ hàng của bạn</span>
+										<div class="badge qty">0</div>
+									</a>
+									<div class="cart-dropdown"  >
+										<div class="cart-list" id="cart_product">
+										
+											
+										</div>
+										
+										<div class="cart-btns">
+												<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i>Thay đổi giỏ hàng</a>
+											
+										</div>
 									</div>
-
-									<div class="cart-btns">
-										<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i> edit cart</a>
-
+										
 									</div>
-								</div>
-
-							</div>
-							<!-- /Cart -->
+								<!-- /Cart -->
 
 							<!-- Menu Toogle -->
 							<div class="menu-toggle">

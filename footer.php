@@ -7,11 +7,11 @@
             <div class="row">
                 <div class="col-md-3 col-xs-6">
                     <div class="footer">
-                        <h3 class="footer-title">About Us</h3>
+                        <h3 class="footer-title">Liên hệ</h3>
 
                         <ul class="footer-links">
-                            <li><a href="#"><i class="fa fa-map-marker"></i>address</a></li>
-                            <li><a href="#"><i class="fa fa-phone"></i>9846372444</a></li>
+                            <li><a href="#"><i class="fa fa-map-marker"></i>Hutech Công Nghệ cao</a></li>
+                            <li><a href="#"><i class="fa fa-phone"></i>0123456789</a></li>
                             <li><a href="#"><i class="fa fa-envelope-o"></i>abc@gmail.com</a></li>
                         </ul>
                     </div>
@@ -36,13 +36,13 @@
 
                 <div class="col-md-3 col-xs-6">
                     <div class="footer">
-                        <h3 class="footer-title">Categories</h3>
+                        <h3 class="footer-title">Danh Mục</h3>
                         <ul class="footer-links">
-                            <li><a href="#">Mobiles</a></li>
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Women</a></li>
-                            <li><a href="#">Kids</a></li>
-                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Điện thoại</a></li>
+                            <li><a href="#">Ipad</a></li>
+                            <li><a href="#">Laptop</a></li>
+                            <li><a href="#">Phụ kiện</a></li>
+                            
                         </ul>
                     </div>
                 </div>
