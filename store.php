@@ -86,7 +86,7 @@ include 'header.php';
 
                     <!-- aside Widget -->
                     <div class="aside">
-                        <h3 class="aside-title">Top selling</h3>
+                        <h3 class="aside-title">BÁN CHẠY</h3>
                         <div id="get_product_home">
                             <!-- product widget -->
 

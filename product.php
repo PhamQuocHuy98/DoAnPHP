@@ -475,7 +475,7 @@ include "header.php";
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											<span class='new'>Mới</span>
 										</div>
 									</div></a>
 									<div class='product-body'>

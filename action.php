@@ -122,7 +122,7 @@ if(isset($_POST["getProduct"])){
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											<span class='new'>Mới</span>
 										</div>
 									</div></a>
 									<div class='product-body'>
@@ -139,7 +139,7 @@ if(isset($_POST["getProduct"])){
 										<div class='product-btns'>
 											<button class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>Sản phẩn yêu thích</span></button>
 											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>Sản phẩm so sánh</span></button>
-											<button class='quick-view'><i class='fa fa-eye'></i><span class='tooltipp'>quick view</span></button>
+											<button class='quick-view'><i class='fa fa-eye'></i><span class='tooltipp'>Lướt qua</span></button>
 										</div>
 									</div>
 									<div class='add-to-cart'>
@@ -188,7 +188,7 @@ if(isset($_POST["get_seleted_Category"]) || isset($_POST["selectBrand"]) || isse
 										<img  src='product_images/$pro_image'  style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											<span class='new'>Mới</span>
 										</div>
 									</div></a>
 									<div class='product-body'>
@@ -203,9 +203,9 @@ if(isset($_POST["get_seleted_Category"]) || isset($_POST["selectBrand"]) || isse
 											<i class='fa fa-star'></i>
 										</div>
 										<div class='product-btns'>
-											<button class='add-to-wishlist' tabindex='0'><i class='fa fa-heart-o'></i><span class='tooltipp'>add to wishlist</span></button>
-											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>add to compare</span></button>
-											<button class='quick-view' ><i class='fa fa-eye'></i><span class='tooltipp'>quick view</span></button>
+											<button class='add-to-wishlist' tabindex='0'><i class='fa fa-heart-o'></i><span class='tooltipp'>Sản phẩm yêu thích</span></button>
+											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>Sản phẩm so sánh</span></button>
+											<button class='quick-view' ><i class='fa fa-eye'></i><span class='tooltipp'>Lướt qua</span></button>
 										</div>
 									</div>
 									<div class='add-to-cart'>
