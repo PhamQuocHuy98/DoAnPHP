@@ -187,10 +187,10 @@ include "header.php";
 
 							<ul class="product-links">
 								<li>Chia Sẻ:</li>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+								<li><a href="https://www.facebook.com/boylangtumaimaiyeuem"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.facebook.com/boylangtumaimaiyeuem"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-envelope"></i></a></li>
 							</ul>
 
 						</div>
