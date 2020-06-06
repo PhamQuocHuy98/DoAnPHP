@@ -154,7 +154,7 @@ if (isset($_POST["gethomeProduct"])) {
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Thêm vào giỏ</button>
 									</div>
 								</div>
                                 </div>
@@ -213,7 +213,7 @@ if (isset($_POST["get_seleted_Category"]) ||  isset($_POST["search"])) {
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' href='#' tabindex='0' class='add-to-cart-btn'><i class='fa fa-shopping-cart'></i> add to cart</button>
+										<button pid='$pro_id' id='product' href='#' tabindex='0' class='add-to-cart-btn'><i class='fa fa-shopping-cart'></i> Thêm vào giỏ</button>
 									</div>
 								</div>
 							</div>
