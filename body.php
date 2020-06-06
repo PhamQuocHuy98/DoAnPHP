@@ -64,8 +64,8 @@
 								<img src="./img/shop01.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Laptop<br>Collection</h3>
-								<a href="product.php?p=78" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<h3>Laptop<br>Bộ Sản Phẩm</h3>
+								<a href="product.php?p=78" class="cta-btn">Mua Ngay <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div>
 					</a>
@@ -80,8 +80,8 @@
 								<img src="./img/shop03.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Accessories<br>Collection</h3>
-								<a href="product.php?p=72" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<h3>Phụ Kiện<br>Bộ Sản Phẩm</h3>
+								<a href="product.php?p=72" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div>
 					</a>
@@ -96,8 +96,8 @@
 								<img src="./img/shop02.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Cameras<br>Collection</h3>
-								<a href="product.php?p=79" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<h3>Máy Ảnh<br>Bộ Sản Phẩm</h3>
+								<a href="product.php?p=79" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div>
 					</a>
@@ -122,13 +122,13 @@
 				<!-- section title -->
 				<div class="col-md-12">
 					<div class="section-title">
-						<h3 class="title">New Products</h3>
+						<h3 class="title">Sảm Phẩm Mới</h3>
 						<div class="section-nav">
 							<ul class="section-tab-nav tab-nav">
 								<li class="active"><a data-toggle="tab" href="#tab1">Laptops</a></li>
-								<li><a data-toggle="tab" href="#tab1">Smartphones</a></li>
-								<li><a data-toggle="tab" href="#tab1">Cameras</a></li>
-								<li><a data-toggle="tab" href="#tab1">Accessories</a></li>
+								<li><a data-toggle="tab" href="#tab1">Di Động</a></li>
+								<li><a data-toggle="tab" href="#tab1">Máy ảnh</a></li>
+								<li><a data-toggle="tab" href="#tab1">Phụ Kiện</a></li>
 							</ul>
 						</div>
 					</div>
@@ -170,7 +170,7 @@
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											<span class='new'>Mới</span>
 										</div>
 									</div></a>
 									<div class='product-body'>
@@ -191,7 +191,7 @@
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Thêm vào giỏ</button>
 									</div>
 								</div>
                                
@@ -235,31 +235,31 @@
 							<li>
 								<div>
 									<h3>02</h3>
-									<span>Days</span>
+									<span>Ngày</span>
 								</div>
 							</li>
 							<li>
 								<div>
 									<h3>10</h3>
-									<span>Hours</span>
+									<span>Giờ</span>
 								</div>
 							</li>
 							<li>
 								<div>
 									<h3>34</h3>
-									<span>Mins</span>
+									<span>Phút</span>
 								</div>
 							</li>
 							<li>
 								<div>
 									<h3>60</h3>
-									<span>Secs</span>
+									<span>Giây</span>
 								</div>
 							</li>
 						</ul>
-						<h2 class="text-uppercase">hot deal this week</h2>
-						<p>New Collection Up to 50% OFF</p>
-						<a class="primary-btn cta-btn" href="store.php">Shop now</a>
+						<h2 class="text-uppercase">khuyến mãi hot trong tuần</h2>
+						<p>Bộ sản phẩm mới giảm 50%</p>
+						<a class="primary-btn cta-btn" href="store.php">Mua Ngay</a>
 					</div>
 				</div>
 			</div>
@@ -280,7 +280,7 @@
 				<!-- section title -->
 				<div class="col-md-12">
 					<div class="section-title">
-						<h3 class="title">Top selling</h3>
+						<h3 class="title">Giảm giá</h3>
 						<div class="section-nav">
 							<ul class="section-tab-nav tab-nav">
 								<li class="active"><a data-toggle="tab" href="#tab2">Formals</a></li>
@@ -328,7 +328,7 @@
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											<span class='new'>Mới</span>
 										</div>
 									</div></a>
 									<div class='product-body'>
@@ -349,7 +349,7 @@
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Thêm vào giỏ</button>
 									</div>
 								</div>
                                
@@ -384,7 +384,7 @@
 			<div class="row">
 				<div class="col-md-4 col-xs-6">
 					<div class="section-title">
-						<h4 class="title">Top selling</h4>
+						<h4 class="title">Giảm Giá</h4>
 						<div class="section-nav">
 							<div id="slick-nav-3" class="products-slick-nav"></div>
 						</div>
@@ -443,7 +443,7 @@
 
 				<div class="col-md-4 col-xs-6">
 					<div class="section-title">
-						<h4 class="title">Top selling</h4>
+						<h4 class="title">Giảm Giá</h4>
 						<div class="section-nav">
 							<div id="slick-nav-4" class="products-slick-nav"></div>
 						</div>
