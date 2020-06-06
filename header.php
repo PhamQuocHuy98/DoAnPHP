@@ -220,25 +220,25 @@ session_start();
 
 							<!-- Cart -->
 							<div class="dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-									<i class="fa fa-shopping-cart"></i>
-									<span>Giỏ hàng</span>
-									<div class="badge qty">0</div>
-								</a>
-								<div class="cart-dropdown">
-									<div class="cart-list" id="cart_product">
-
-
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Giỏ hàng của bạn</span>
+										<div class="badge qty">0</div>
+									</a>
+									<div class="cart-dropdown"  >
+										<div class="cart-list" id="cart_product">
+										
+											
+										</div>
+										
+										<div class="cart-btns">
+												<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i>Thay đổi giỏ hàng</a>
+											
+										</div>
 									</div>
-
-									<div class="cart-btns">
-										<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i> edit cart</a>
-
+										
 									</div>
-								</div>
-
-							</div>
-							<!-- /Cart -->
+								<!-- /Cart -->
 
 							<!-- Menu Toogle -->
 							<div class="menu-toggle">
