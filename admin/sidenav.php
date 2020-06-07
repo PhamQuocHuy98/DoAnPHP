@@ -53,7 +53,7 @@
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="addproduct.php">
               <i class="material-icons">add</i>
               <p>Add Products</p>
             </a>
