@@ -11,5 +11,5 @@ include "header.php";
 </div>
 </section>	
 <?php
-include "newslettter.php";
+include "newsletter.php";
 include "footer.php";
