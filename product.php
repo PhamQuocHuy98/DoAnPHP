@@ -187,10 +187,10 @@ include "header.php";
 
 							<ul class="product-links">
 								<li>Chia Sẻ:</li>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+								<li><a href="https://www.facebook.com/boylangtumaimaiyeuem"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.facebook.com/boylangtumaimaiyeuem"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-envelope"></i></a></li>
 							</ul>
 
 						</div>
@@ -475,7 +475,7 @@ include "header.php";
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											<span class='new'>Mới</span>
 										</div>
 									</div></a>
 									<div class='product-body'>
@@ -526,7 +526,7 @@ include "header.php";
 
 		<!-- FOOTER -->
 <?php
-include "newslettter.php";
+include "newsletter.php";
 include "footer.php";
 
 ?>
