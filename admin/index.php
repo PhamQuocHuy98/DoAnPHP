@@ -74,31 +74,6 @@ include "topheader.php";
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card ">
-              <div class="card-header card-header-primary">
-                <h4 class="card-title">Danh sách nhãn hiệu</h4>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive ps">
-                  <table class="table table-hover tablesorter " id="">
-                    <thead class=" text-primary">
-                        <tr><th>ID</th><th>Tên nhãn hiệu</th><th>Số lượng</th>
-                    </tr></thead>
-                    <tbody>
-                      <?php 
-                        $result = GetListBrand();
-                        for($i = 0 ; $i <count($result); $i++)
-                        { 
-                            $brand = $result[$i];
-                            echo "<tr><td>$brand->brandID</td><td>$brand->brandName</td><td>$brand->brandCount</td></tr>";
-                        }
-                        ?>
-                    </tbody>
-                  </table>
-                <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
-              </div>
-            </div>
           </div>
            </div>
            <div class="col-md-5">

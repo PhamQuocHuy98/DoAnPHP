@@ -28,20 +28,6 @@ class Category
     }
 }
 
-class Brand
-{
-
-    public $brandID;
-    public $brandName;
-    public $brandCount;
-    public function __construct($ma, $ten, $soluong)
-    {
-        $this->brandID = $ma;
-        $this->brandName = $ten;
-        $this->brandCount = $soluong;
-    }
-}
-
 // Danh sách sản phẩm
 function GetListCategory()
 {
@@ -57,20 +43,4 @@ function GetListCategory()
         array_push($listCat,$cat);
     }
     return $listCat;
-}
-// Danh sách nhãn hiệu
-function GetListBrand()
-{
-    $db = new DB();
-    $sql = "SELECT * FROM brands";
-    $rs = $db->select_to_array($sql);
-    $listBrand = array();
-    for($i = 0; $i < count($rs) ; $i++)
-    {
-        $sqlCount = "SELECT COUNT(*) AS count_items FROM products WHERE product_brand=".$rs[$i]["brand_id"]; 
-        $rsCount =  $db->select_to_array($sqlCount);
-        $brand = new Brand($rs[$i]["brand_id"],$rs[$i]["brand_title"],$rsCount[0]["count_items"]);
-        array_push($listBrand,$brand);
-    }
-    return $listBrand;
 }
